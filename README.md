@@ -7,5 +7,8 @@ Alpine-based image with a selection of tools for general-purpose tasks in CI/CD 
   - Bash
   - Curl
   - Rsync
+  - Git
   - OpenSSH
   - CA Certificates
+
+Note: Strict host key checking has been disabled to prevent interactive input being required when using SSH.
